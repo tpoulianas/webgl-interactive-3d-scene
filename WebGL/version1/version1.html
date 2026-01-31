@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WebGL Cube - Version 1</title>
+  <style>
+    canvas { border: 1px solid black; }
+    body { font-family: sans-serif; }
+  </style>
+</head>
+<body>
+  <h2>3D Cube Scene (Steps 1–4)</h2>
+
+  <!-- Inputs -->
+  <label>View Angle (degrees): <input type="number" id="viewAngle" value="60"></label><br>
+  <label>Ortho Camera Distance: <input type="number" id="camOrthoDistance" value="8"></label><br>
+
+  <!-- Camera Radio Buttons -->
+  <p>Camera Position:</p>
+  <label><input type="radio" name="cameraPos" value="Left-Front-Top"> Left-Front-Top</label>
+  <label><input type="radio" name="cameraPos" value="Left-Front-Bottom"> Left-Front-Bottom</label>
+  <label><input type="radio" name="cameraPos" value="Left-Back-Top"> Left-Back-Top</label>
+  <label><input type="radio" name="cameraPos" value="Left-Back-Bottom"> Left-Back-Bottom</label>
+  <label><input type="radio" name="cameraPos" value="Right-Front-Top"> Right-Front-Top</label>
+  <label><input type="radio" name="cameraPos" value="Right-Front-Bottom"> Right-Front-Bottom</label>
+  <label><input type="radio" name="cameraPos" value="Right-Back-Top" checked> Right-Back-Top</label>
+  <label><input type="radio" name="cameraPos" value="Right-Back-Bottom"> Right-Back-Bottom</label><br>
+
+  <!-- Button -->
+  <button onclick="redrawScene()">Redraw Scene</button>
+  <br><br>
+
+  <!-- Canvas -->
+  <canvas id="glcanvas" width="600" height="600"></canvas>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.8.1/gl-matrix-min.js"></script>
+  <script src="webgl-debug.js"></script>
+  <script src="version1.js"></script>
+</body>
+</html>
