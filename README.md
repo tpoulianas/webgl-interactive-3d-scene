@@ -1,29 +1,27 @@
-# Interactive 3D WebGL Scene (Versions 1–4)
+# Interactive 3D WebGL Scene
 
-University project implemented in **JavaScript/WebGL** using only:
-- `gl-matrix-min.js`
-- `webgl-debug.js`
+Final version (v4) of a university project implemented in **JavaScript/WebGL**.
 
-This repository includes **4 incremental versions** and the project report.  
-**Version 4 is the final version.**
+## Live Demo
+🔗 https://tpoulianas.github.io/webgl-interactive-3d-scene/
 
-## Quick Start
-Open in a browser:
-- `version4/version4.html` (final)
+> The live demo opens a landing page.  
+> Click **“Launch Final Version”** to view the WebGL scene.
 
-Other versions:
-- `version1/version1.html`
-- `version2/version2.html`
-- `version3/version3.html`
+## Overview
+This project demonstrates the development of an interactive 3D scene using pure WebGL.
+The implementation was developed incrementally in four versions, with **Version 4 (v4)** being the final and complete version.
 
-> Note: Textures may require running via a local server.
+## Technologies
+- JavaScript
+- WebGL
+- glMatrix (`gl-matrix-min.js`)
+- webgl-debug (`webgl-debug.js`)
 
-## Versions
-- **v1:** Basic WebGL setup
-- **v2:** Extended transformations/scene
-- **v3:** Textures added (`textures/`)
-- **v4:** Final version (full scene + textures)
-
-## Report
-- `report/Documentation in greek.pdf`
+## Project Structure
+- `WebGL/version1/` – Initial WebGL setup
+- `WebGL/version2/` – Extended transformations and scene logic
+- `WebGL/version3/` – Texture support added
+- `WebGL/version4/` – **Final version (v4)** of the project
+- `WebGL/Documentation in greek.pdf` – Project report (Greek)
 
