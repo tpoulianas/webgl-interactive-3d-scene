@@ -1,8 +1,5 @@
 # Interactive 3D WebGL Scene (Versions 1–4)
 
-## Live Demo
-🔗 https://tpoulianas.github.io/webgl-interactive-3d-scene/
-
 University project implemented in **JavaScript/WebGL** using only:
 - `gl-matrix-min.js`
 - `webgl-debug.js`
